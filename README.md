@@ -198,6 +198,21 @@ Concepts are mapped to vendor-neutral NHI patterns and other platforms such as E
 * Agent authorization model
 * MCP tool governance model
 
+## Months 4-12: Deeper Specialization
+
+After the 12-week foundation, the curriculum continues into specialized tracks:
+
+| Months | Track | Focus |
+|--------|-------|-------|
+| 4-5 | Advanced OAuth and Token Security | private_key_jwt, mTLS, DPoP, token exchange, token replay, revocation, introspection, OAuth security BCP |
+| 5-6 | Cloud and Workload Identity Depth | AWS roles, Azure managed identities, Entra workload identities, GCP WIF, GitHub/GitLab OIDC, Kubernetes service accounts |
+| 6-7 | Secrets and Credential Governance | Vault, Infisical, Akeyless, AWS Secrets Manager, Azure Key Vault, dynamic secrets, secret scanning, rotation, incident response |
+| 7-8 | NHI Governance Program Design | Inventory, owner mapping, stale access cleanup, access review workflows, exception handling, risk scoring, audit evidence |
+| 8-9 | Detection Engineering for NHIs | SIEM logic, CloudTrail/Okta/GitHub logs, anomaly detection, token abuse patterns, dormant key usage, service account lateral movement |
+| 9-10 | AI Agents as Governed Identities | Agent identity, delegated access, acting as self vs on behalf of user, human approval, tool scopes, audit trail |
+| 10-11 | MCP Authorization and Tool Governance | MCP OAuth, protected resources, tool-level permissions, destructive tool approval, revocation and logging |
+| 11-12 | Capstone and Job-Readiness | Portfolio polish, mock interviews, architecture diagrams, open-source templates, public writing |
+
 ## Repository Structure
 
 ```text
@@ -253,6 +268,8 @@ Expected outputs include:
 
 ## Status
 
+### Foundation (Weeks 0-12)
+
 | Area                            | Status         |
 | ------------------------------- | -------------- |
 | Week 0: NHI Mental Model        | ✅ Complete    |
@@ -268,6 +285,19 @@ Expected outputs include:
 | Week 10: AI Agents              | Not Started    |
 | Week 11: MCP Authorization      | Not Started    |
 | Week 12: Capstone               | Not Started    |
+
+### Specialization (Months 4-12)
+
+| Track                              | Status      |
+| ---------------------------------- | ----------- |
+| Advanced OAuth and Token Security  | Not Started |
+| Cloud and Workload Identity Depth  | Not Started |
+| Secrets and Credential Governance  | Not Started |
+| NHI Governance Program Design      | Not Started |
+| Detection Engineering for NHIs     | Not Started |
+| AI Agents as Governed Identities   | Not Started |
+| MCP Authorization and Tool Gov     | Not Started |
+| Capstone and Job-Readiness         | Not Started |
 
 ## Focus
 
