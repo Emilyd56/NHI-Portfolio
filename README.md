@@ -273,8 +273,8 @@ Expected outputs include:
 | Area                            | Status         |
 | ------------------------------- | -------------- |
 | Week 0: NHI Mental Model        | ✅ Complete    |
-| Week 1: Okta OAuth Labs         | 🔄 In Progress |
-| Week 2: Tokens and Scopes       | Not Started    |
+| Week 1: Okta OAuth Labs         | ✅ Complete    |
+| Week 2: OAuth Client Credentials Deep Dive | ✅ Complete    |
 | Week 3: GitHub OIDC             | Not Started    |
 | Week 4: Cloud Workload Identity | Not Started    |
 | Week 5: Secrets Lifecycle       | Not Started    |
