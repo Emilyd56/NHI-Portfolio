@@ -10,6 +10,7 @@ permissions:
 jobs:
   inspect-oidc-token:
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Get OIDC Token
         id: get-token
@@ -21,8 +22,5 @@ jobs:
       - name: Decode and Display Claims
         run: |
           TOKEN="${{ steps.get-token.outputs.token }}"
-          echo "=== OIDC Token Header ==="
-          echo $TOKEN | cut -d'.' -f1 | base64 -d 2>/dev/null | jq .
-          echo ""
           echo "=== OIDC Token Payload (Claims) ==="
           echo $TOKEN | cut -d'.' -f2 | base64 -d 2>/dev/null | jq .
